@@ -1,0 +1,9 @@
+google_com.update()
+-------------plot_.getCurve  (plot)
+-------------curve.addValue(ping(dns_)) (float dns return)
+-------------plot_.prepare() (return xy axis, rangex, rangey)                           
+                   -------------curve.prepare(rangex, rangey);    
+                                      -------------line_.add() 
+                                      -------------area_.add()
+                   -------------aixs.prepare(rangex)
+                   -------------aixs.prepare(rangey)
