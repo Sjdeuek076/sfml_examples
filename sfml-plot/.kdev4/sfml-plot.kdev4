@@ -6,13 +6,13 @@ Build Directory Count=1
 Current Build Directory Index-Host System=0
 
 [CMake][CMake Build Directory 0]
-Build Directory Path=/home/adleyvong/projects/sfml_eg/sfml-plot/build
+Build Directory Path=/home/adleyvong/github-repos/sfml_examples/sfml-plot/build
 Build Type=Debug
 CMake Binary=/usr/bin/cmake
 CMake Executable=/usr/bin/cmake
 Environment Profile=
 Extra Arguments=
-Install Directory=
+Install Directory=/usr/local
 Runtime=Host System
 
 [Launch]
@@ -21,17 +21,21 @@ Launch Configurations=Launch Configuration 0
 [Launch][Launch Configuration 0]
 Configured Launch Modes=execute
 Configured Launchers=nativeAppLauncher
-Name=New Compiled Binary Launcher
+Name=sfml-cpp
 Type=Native Application
 
 [Launch][Launch Configuration 0][Data]
 Arguments=
-Dependencies=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x00)
-Dependency Action=Nothing
+Dependencies=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x02\x00\x00\x00\x12\x00s\x00f\x00m\x00l\x00-\x00p\x00l\x00o\x00t\x00\x00\x00\x10\x00s\x00f\x00m\x00l\x00-\x00c\x00p\x00p)
+Dependency Action=Build
 EnvironmentGroup=
-Executable=file:///home/adleyvong/projects/sfml_eg/sfml-plot
+Executable=file:///home/adleyvong/github-repos/sfml_examples/sfml-plot
 External Terminal=konsole --noclose --workdir %workdir -e %exe
+Kill Before Executing Again=4194304
 Project Target=sfml-plot,sfml-cpp
 Use External Terminal=false
 Working Directory=
 isExecutable=false
+
+[Project]
+VersionControlSupport=kdevgit
