@@ -1,3 +1,4 @@
+// source from: https://mightynotes.wordpress.com/2019/07/09/real-time-plotting-in-c-using-root/
 // c++ root-realtime-plot.cpp -o root-realtime-plot -O3 `root-config --cflags --glibs` -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio -lfftw3f
 
 // Using SFML as out audio loader and player
