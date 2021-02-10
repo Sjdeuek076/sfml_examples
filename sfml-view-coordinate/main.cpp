@@ -1,3 +1,4 @@
+// description: https://dev.my-gate.net/2012/06/21/using-sfview/
 // source https://github.com/SFML/SFML/wiki/Tutorial:-Using-View
 #include <iostream>
 #include <sstream>
